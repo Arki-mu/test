@@ -1,0 +1,82 @@
+/* 标题 */
+.title{
+    width: 100vw;
+    height: 6vh;
+    border-bottom: 1px solid #EBEBEB;
+    line-height: 6vh;
+    text-align: center;
+    position: relative;
+}
+.title img{
+    width: 4%;
+    position: absolute;
+    top: 34%;
+    left: 3%;
+}
+/* 导航栏 */
+nav{
+    width: 100vw;
+    height: 6vh;
+    line-height: 6vh;
+    border-bottom: 1px solid #d4d4d4;
+    color: #505050;
+    font-size: 2vh;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin: auto;
+}
+/* 筛选 */
+.fliter{
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1.5vh;
+}
+.fliter ul{
+    display: flex;
+}
+.fliter li{
+    height: 2.5vh;
+    padding: 0 2vw;
+    margin: 1vh auto 2vh;
+    background-color: #eeeeee;
+    border-radius: 1vw;
+}
+/* 产品 */
+.products{
+    width: 95%;
+    margin: 0 auto;
+}
+.products ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.products li{
+    width: 41%;
+    margin:1vh auto 1vh;
+    background-color: #eeeeee;
+    padding: 2vh 1.5vh;
+    border-radius: 1.5vh;
+}
+.products img{
+    width: 100%;
+}
+.products span{
+    display: block;
+    margin: 1vh 0;
+    font-size: 1vw;
+    color: #505050;
+}
+.products i{
+    color: #ff5733;
+}
+/* ....cake.html限定..... */
+.products .tip{
+    border: 1px solid #ff5733;
+    font-size: 3px;
+    color: #ff5733;
+    border-radius: 3vw;
+    padding: 0 4px;
+}

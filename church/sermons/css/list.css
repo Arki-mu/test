@@ -1,0 +1,69 @@
+h5{
+    font-size: 35px;
+    padding-top: 100px;
+}
+cite{
+    display: block;
+    font-size: 14px;
+    line-height: 27px;
+    color: #53555c;
+    margin-bottom: 50px;
+}
+main li{
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+/* 图片 */
+.sermons-img{
+    overflow: hidden;
+    width: 368px;
+    height: 202px;
+    margin-right: 50px;
+}
+.sermons-img img{
+    width: 120%;
+    height: auto;
+}
+/* 详细内容 */
+.sermons-detail{
+    width: calc(100% - 418px);
+    overflow: hidden;
+}
+.sermons-detail span{
+    display: block;
+    line-height: 28px;
+}
+.sermons-detail span:first-of-type{
+    font-size: 14px; 
+}
+.sermons-detail span em{
+    color: #c5841e;
+}
+.sermons-detail span:last-of-type{
+    font-size: 20px;
+    font-weight: 600;
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.sermons-detail p{
+    height: 54px;
+    margin-top: 30px;
+    line-height: 27px;
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.icon{
+    margin-top: 30px;
+}
+.icon i{
+    font-size: 25px;
+    color: #ADAEB0;
+    margin-right: 40px;
+}

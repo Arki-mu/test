@@ -1,0 +1,54 @@
+/* 标题 */
+.title{
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    font-size: 4vh;
+    line-height: 20vh;
+    color: #737373;
+}
+/* 输入界面，+点击 */
+.login-line{
+    width: 100vw;
+    position: relative;
+}
+.login-line input{
+    width: 98vw;
+    height: 8vh;
+    border-bottom:1px solid gray ;
+    font-size: 2.5vh;
+    padding-left: 3vh;
+}
+.login-line a{
+    position: absolute;
+    font-size: 2vh;
+    top: 11vh;
+    right: 3vh;
+    color: #FF875E;
+}
+.login-line button{
+    width: 95%;
+    height: 7vh;
+    border-radius:4vh;
+    display: block;
+    margin: 5vh auto 3vh;
+    background-color: #FFA586;
+    color: white;
+}
+/* 登录界面之间切换 */
+.login-switch{
+    width: 95vw;
+    position: relative;
+    margin: 0 auto;
+    font-size: 2vh;
+}
+.login-switch a:first-of-type{
+    margin-left: 0;
+}
+.login-switch a:last-of-type{
+    position: absolute;
+    right: 0;
+}
+.login-x{
+    margin: 2vh 0 0 3vh;
+}

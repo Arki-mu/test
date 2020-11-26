@@ -1,0 +1,100 @@
+/* ........cart index.html......... */
+
+/* 标题 */
+.cart-title{
+    text-align: center;
+    line-height: 6vh;
+    width: 100vw;
+    height: 6vh;
+    border-bottom: 1px solid #D9D9D9;
+}
+/* 购物车 */
+.cart{
+    width: 100vw;
+    height: 15vh;
+    border-bottom: 1px solid #D9D9D9;
+    display: flex;
+}
+.cart input{
+    margin: auto 0;
+    margin-left: 5vw;
+}
+.cart-box{
+    width: 60vw;
+    margin-left: 5vw;
+    line-height: 7vh;
+}
+.cart-box span{
+    font-size: 2vh;
+    flex: 1;
+}
+.cart-box-num{
+    display: flex;
+    justify-content: space-around;
+}
+.cart-box-num .right{
+    flex: 1;
+    text-align: right;
+}
+.cart-box-num button{
+    width: 2.5vh;
+    height: 2.5vh;
+    background-color: white;
+    color: #78ACE9;
+    border: 1px solid #D9D9D9;
+    margin: 0 1vh;
+}
+/* 相关推荐 */
+.tui{
+    width: 85vw;
+    height: 43vh;/*展开容器*/
+    margin: 0 auto;
+    margin-top: 3.5vh;
+    /* background-color: rosybrown; */
+}
+.tui-list ul{
+    display: flex;
+    margin-top: 2vh;
+}
+.tui-list li{
+    width: 15vw;
+    text-align: center;
+    margin-right: 8vw;
+}
+.tui-list img{
+    width: 15vw;
+}
+.tui-list span{
+    display: block;
+    white-space: nowrap;
+    font-size: 1.5vh;
+    margin-top: 1vh;
+}
+.tui-list i{
+    color: #EF521D;
+    font-size: 1.5vh;
+}
+/* 结算 */
+.cart-set{
+    width: 100vw;
+    height: 8vh;
+    line-height: 8vh;
+    background-color:  #E0E0E0;
+    margin-bottom: 11vh;
+    display: flex;
+}
+.set{
+    flex: 1;
+    padding-left: 7vw;
+    background-color: #E0E0E0;
+}
+.set i{
+    font-size: 3vh;
+    color: #EF521D;
+}
+.cart-set a{
+    padding: 0 7vw;
+    background-color: #EF521D;
+    color: white;
+    text-align: right;
+}

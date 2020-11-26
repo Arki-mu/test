@@ -1,0 +1,95 @@
+
+header{
+    width: 100%;
+    min-height: 600px;
+    height: 100vh;
+    background-image: url(https://ccdn.goodq.top/caches/af4395df8b3c3ad67cfbedc8c5adf39b/aHR0cHM6Ly81ZGFkODBiZWFkMWZhLnQ3NC5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTkvMTAvOWE3ZTQ4OTA0MGU3YWU4MTlmNzg1ZjQwYTQ3MmY1ZjUtOTAud2VicA_p_p100_p_3D_p_p100_p_3D.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    opacity: 1;
+}
+/* 导航条 */
+nav{
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    width: 17%;
+    height: 70px;
+    float: left;
+}
+.nav{
+    width: 82%;
+    height: 80px;
+    float: left;
+}
+.nav>li{
+    float: right;
+    margin:0 18px;
+    width: 40px;
+    position: relative;
+}
+.nav>li:first-of-type{
+    margin-right: 0;
+}
+.nav>li>a>span{
+    font-size: 16px;
+    color: white;
+}
+.underline{
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    width: 0;
+    height: 0.5px;
+    opacity: 0;  
+    transition: all 0.8s cubic-bezier(.6,.04,.98,.34) 0s;
+}
+.nav>li>a:hover .underline{
+    width: 100%;
+    left: -5%;
+    opacity: 1;
+}
+/* -----导航 end------- */
+
+/* 顶部大标题 */
+header>.layout{
+    position: relative;
+}
+.top-title{
+    width: 100%;
+    /* height: 342px; */
+    text-align: center;
+    margin-top:37vh;
+    color: white;
+}
+.top-title>span{
+    display: block;
+    font-size: 50px;
+    margin-top: 50px;
+    letter-spacing: 10px;
+}
+.top-title>span>strong{
+    color: rgb(219, 0, 24);
+    font-size: 100px;
+    letter-spacing: normal;
+    margin-right: 23px;
+}
+/* 顶部动图 */
+.top-gif{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.top-gif>img{
+    vertical-align: middle;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    bottom: 0;
+}

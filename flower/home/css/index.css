@@ -1,0 +1,108 @@
+/* 轮播 */
+.swiper{
+    width: 100vw;
+    /* background-color: green; */
+}
+.swiper img{
+    width: 100vw;
+}
+/* 中部导航/菜单 */
+/* 导航栏上部 */
+.nav{
+    width: 100vw;
+    height: 30vh;
+    /* background-color: wheat; */
+}
+.nav-top{
+    width: 90vw;
+    /* height: 15vh; */
+    margin: 2vh auto 1vh;
+}
+.nav-top ul{
+    display: flex;
+    white-space: nowrap;
+}
+.nav-top li{
+    width: 13vw;
+    line-height: 4vh;
+    margin-right: 6vw;
+    text-align: center;
+}
+.nav-top li:last-of-type{
+    margin-right: 0;
+}
+.nav-top img{
+    width: 100%;
+}
+.nav-top span{
+    display: block;
+}
+/* 导航栏中部 */
+.nav-middle{
+    width: 90vw;
+    margin: 0 auto;
+    /* background-color: wheat; */
+}
+.nav-middle ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-middle li{
+    background-color: #FFA9A9;
+    width: 26vw;
+    margin-left: 6vw;
+    margin-top: 1.5vh;
+    padding: 1vh 0;
+    text-align: center;
+    border-radius: 1vh;
+    color: white;
+    font-size: 2vh;
+}
+.nav-middle li:first-of-type{
+    margin-left: 0;
+}
+.nav-middle li:nth-child(4){
+    margin-left: 0;
+}
+.nav-middle li:nth-child(2n){
+    background-color: #95C8FD;
+}
+/* 导航栏底部+盒子 */
+.nav-bottom{
+    width: 100vw;
+    height: 6vh;
+    background-color: #5B5B5B;
+    color: white;
+}
+.nav-bottom ul{
+    display: flex;
+    white-space: nowrap;
+}
+.nav-bottom li{
+    position: relative;
+    font-size: 2vh;
+    line-height: 6vh;
+    padding:0 4vw;
+    margin: auto;
+}
+.nav-bottom li:first-of-type{
+    background-color: #F55737;
+}
+.bottom-box{
+    width: 100vw;
+    /* background-color: yellow; */
+    position: absolute;
+    left: -4vw;
+    top: 6vh;
+}
+.bottom-box span{
+    display: block;
+    width: 100vw;
+    height: 5vh;
+    line-height: 5vh;
+    text-align: center;
+    color: black;
+}
+.bottom-box img{
+    width: 104vw;
+}

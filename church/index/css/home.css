@@ -1,0 +1,401 @@
+/* 头部 */
+header{
+    height: 850px;
+    color: white;
+    position: relative;
+}
+.attend{
+    width: 705px;
+    margin: 160px auto 0;
+}
+.attend h4{
+    width: 690px;
+    margin: 0 auto 45px;
+    font-size: 65px;
+}
+.attend p{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.attend a{
+    font-size: 18px;
+    background-color: #C5841E;
+    padding: 15px 45px;
+    border-radius: 40px;
+    color: white;
+}
+/* 头部图片轮播 */
+#top-swiper ul{
+    position: absolute;
+    bottom: 110px;
+    width: 90px;
+    left: calc(50% - 45px);
+}
+#top-swiper ul a{
+    display: block;
+    width: 27px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: white;
+}
+#top-swiper ul .active a{
+    background-color: #C5841E;
+}
+article{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+    filter:blur(25px);
+}
+article section{
+    width: 100%;
+    height: 100%;
+}
+article section div{
+    height: 100%;
+    background-position: top center;
+}
+/*躯干*/
+main{
+    width: 100%;
+    overflow: hidden;
+}
+h5{
+    font-size: 35px;
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+.box{
+    padding-bottom: 100px;
+}
+/* OUR VALUES */
+.values li img{
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #53555C;
+}
+.values li:nth-child(-n+2){
+    border-right: 1px solid #EDEEEE;
+}
+.values li span{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.values li p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 35px;
+    width: 290px;
+    padding: 0 50px;
+    overflow: hidden;/*超出隐藏*/
+    display: -webkit-box;
+  	-webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+/* ABOUT US */
+.about{
+    width: 100%;
+    position: relative;
+}
+.about-back{
+    width: 90%;
+    height: 420px;
+    position: absolute;
+    top: 0;
+    right:0;
+    background-color: #C5841E;
+    z-index: -1;
+}
+.about h5{
+    color: white;
+}
+.about li{
+    width: 390px;
+    height: 390px;
+    position: relative;
+    overflow: hidden;
+}
+.about img{
+    width: 390px;
+    height: 390px;
+    transition: all .5s;
+}
+.about-box{
+    text-align: left;
+    padding: 40px;
+    position: absolute;
+    right: -100%;
+    bottom: 0;
+    width: 193px;
+    height: 115px;
+    background-color: white;
+    z-index: 10;
+    transition: all 0.5s;
+}
+.about-box span{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+.about-box p{
+    font-size: 14px;
+    color: #53555c;
+    margin-bottom: 28px;
+    overflow: hidden;/*超出隐藏*/
+    display: -webkit-box;
+  	-webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.about-box a{
+    font-size: 14px;
+    color: #C5841E;
+}
+.about li:hover .about-box{
+    right: 0;
+}
+.about li:hover img{
+    filter:blur(25px);
+}
+/* UPCOMING EVENTS */
+.events{
+    position: relative;
+    padding-bottom: 0;
+}
+.events .layout{
+    position: relative;
+    height: 681px;
+    overflow: hidden;
+}
+.events h5{
+    color: white;
+}
+.events-back{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: #3B3C42;
+    z-index: -1;
+}
+.arrow{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    color:#151516;
+    font-weight: 800;
+}
+.arrow i{
+    font-size: 30px !important;
+}
+.events ul{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2370px;
+    transition: all 0.5s;
+}
+.events li{
+    width: 270px;
+    background-color: white;
+}
+.events img{
+    width: 100%;
+    height: 270px;
+}
+.events .events-box{
+    text-align: left;
+    margin-top: 0;
+    width: calc(100% -70px);
+    height: 240px;
+    padding: 0 35px;
+}
+.events-title{
+    line-height: 69px;
+    border-bottom: 1px solid #F2F3F3;
+}
+.events i{
+    font-size: 19px;
+    margin-right: 15px;
+    color: #C7C7C9;
+}
+.events-title a{   
+    font-size: 12px;
+    flex: 1;
+    text-align: right;
+    color: #C5841E;
+}
+.events-box span{
+    display: block;
+    font-size: 20px;
+    line-height: 70px;
+}
+.events-box p{
+    font-size: 13px;
+    line-height: 30px;
+}
+.events-box em{
+    color: #C5841E;
+}
+
+
+
+/* Latest Sermons */
+.latest{
+    width: 100%;
+}
+.latest .layout{
+    text-align: left;
+    position: relative;
+}
+.latest h5{
+    margin-bottom: 20px;
+}
+.latest ul{
+    width: 50%;
+    position: relative;
+}
+.latest li{
+    width: 100%;
+    padding: 30px 0;
+}
+.latest li:nth-child(-n+2){
+    border-bottom: 1px solid #F2F3F3;
+}
+.latest-img{
+    width: 93px;
+    height: 130px;
+    margin-right: 45px;
+    overflow: hidden;
+    position: relative;
+}
+.latest-img img{
+    width: 120px;
+    height: auto;
+    margin: calc(50% - 40px) calc(50% - 60px);
+}
+.latest-img i{
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    background-color: #C5841E;
+    color: white;
+}
+.latest-main span{
+    font-size: 20px;
+}
+.latest-main p{
+    font-size: 14px;
+    line-height: 45px;
+}
+.latest-main p em{
+    color: #C5841E;
+}
+.latest-main p i{
+    font-size: 20px;
+    margin-right: 15px;
+    color: #C7C7C9;
+}
+.latest-box{
+    display: none;
+    top: -100px;
+    left: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 872px;
+    height: 730px;
+}
+.latest-box img{
+    width: 100%;
+    height: auto;
+}
+
+.latest-title{
+    padding: 10px;
+    color: #adaeaf;
+    top: 32%;
+    left: 50%;
+    letter-spacing: 20px;
+    font-size: 65px;
+    position: absolute;
+    background-color: white;
+    writing-mode: vertical-rl;
+}
+/* latest点击事件 */
+.latest .active .latest-box{
+    display: block;
+}
+.latest .active{
+    box-shadow: 5px 5px 10px #626368;
+}
+
+/* our Gallery */
+.gallery{
+    width: 100%;
+    background-color: black;
+    padding-bottom: 0;
+}
+.gallery h5{
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+.gallery .swiper{
+    margin: 0 auto;
+    width: 968px;
+    height: 478px;
+    overflow: hidden;
+}
+.gallery .swiper img{
+    width: 100%;
+}
+/* Testimonials */
+.test .layout{
+    position: relative;
+}
+.test li{
+    background-image: url(../../public-images/quote.png);
+    background-repeat: no-repeat;
+    background-position: 35px 35px;
+    text-align: left;
+    width: 283px;
+    height: 224px;
+    padding: 70px 50px 60px 35px;
+    border: 1px solid #E8E8E8;
+}
+.test p{
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    overflow: hidden;/*超出隐藏*/
+    display: -webkit-box;
+  	-webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.test img{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.test-user div{
+    line-height: 21px;
+}
+.test-user em{
+    font-size: 13px;
+    display: block;
+    color: #C5841E;
+}
+.test-user span{
+    font-size: 12px;
+    display: block;
+}

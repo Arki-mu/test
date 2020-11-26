@@ -1,0 +1,86 @@
+{
+  "id": "2174790",
+  "name": "church",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17522496",
+      "name": "mail-send-line",
+      "font_class": "mail-send-line",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "9097145",
+      "name": "邮件",
+      "font_class": "ziyuan",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "12184870",
+      "name": "定位",
+      "font_class": "dingwei1",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "14986435",
+      "name": "phone",
+      "font_class": "phone",
+      "unicode": "e749",
+      "unicode_decimal": 59209
+    },
+    {
+      "icon_id": "670134",
+      "name": "YDUI-录像",
+      "font_class": "yduiluxiang",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "1800714",
+      "name": "邮件",
+      "font_class": "email",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "2155433",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "2325905",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "5985624",
+      "name": "客服耳机",
+      "font_class": "kefuerji",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "7605104",
+      "name": "clock2",
+      "font_class": "clock",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "11215439",
+      "name": "pdf",
+      "font_class": "pdf",
+      "unicode": "e722",
+      "unicode_decimal": 59170
+    }
+  ]
+}

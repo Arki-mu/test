@@ -1,0 +1,76 @@
+h5{
+    padding-top: 90px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.box{
+    padding-bottom: 95px;
+    border-bottom: 1px solid #E8E6E5;
+}
+/* About Us */
+.about-us p{
+    font-size: 14px;
+    line-height: 28px;
+    width: 760px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    overflow: hidden;
+    display: -webkit-box;
+  	-webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.about-us video{
+    width:100%; 
+    height: 455px;
+}
+/* Our Visions */
+.visions li{
+    width: 368px;
+    height: 354px;
+    background-color: #C5841E;
+    color: white;
+    text-align: left;
+}
+.visions-img{
+    width: 100%;
+    height: 172px;
+    overflow: hidden;
+}
+.visions-img img{
+    width: 110%;
+    height: auto;
+    margin: 0 calc(50% - 202px);
+}
+.visions li{
+    transition: all ease-in-out .3s;
+}
+.visions li span{
+    font-size: 20px;
+    display: block;
+    margin:  40px 38px 20px;
+}
+.visions li p{
+    line-height: 25px;
+    font-size: 14px;
+    margin: 0 38px;
+    overflow: hidden;
+    display: -webkit-box;
+  	-webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.visions li:hover{
+    box-shadow: 0 0 30px #666;
+}
+/* Our team */
+.team{
+    width: 100%;
+    background-color: #E2E8E5;
+}
+.team img{
+    display: block;
+    width: 220px;
+    height: 218px;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin-bottom: 20px;
+}
