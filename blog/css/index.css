@@ -1,0 +1,323 @@
+/* 头部 */
+header{
+    width: 100%;
+    height: 34px;
+    line-height: 32px;
+    background-color: #222;
+    margin-bottom: 20px;
+}
+header ul{
+    flex-direction: row-reverse;/*从右往左*/
+}
+header li{
+    position: relative;
+}
+header a{
+    color: white;
+    margin-left: 15px;
+    font-size: 14px;
+}
+header a:hover{
+    color: white;
+}
+header img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100%;
+    right: -26%;
+    border: #ccc 1px solid;
+    display: none;
+}
+header li:hover img{
+    display: block;
+}
+/* 主体 */
+main{
+    width: 100%;
+    overflow: visible;
+}
+main nav{
+    width: 110px;
+    height: 295px;
+    text-align: center;
+}
+/* 左侧导航 */
+nav img{
+    width: 108px;
+    height: auto;
+    margin-bottom: 0 auto 16px;
+}
+nav a{
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 2px;
+    border-radius: 4px;
+}
+nav a:nth-child(2){
+    background-color: #ED4040;
+    color: white;
+}
+nav a:nth-child(n+2):hover{
+    background-color: #ED4040;
+    color: white;
+}
+/* 中部 */
+.main-center{
+    margin: 0 40px 20px;
+    width: 660px;
+}
+/* 轮播 */
+.swiper-container{
+    margin-bottom: 16px;
+}
+.main-center .swiper-button-prev, .swiper-button-next{
+    color: #FDFEFE;
+    --swiper-navigation-size: 30px;/* 设置按钮大小 */
+    opacity: 0.8;
+    width: 10%;
+}
+.main-center .swiper-pagination-bullet-active{
+    background: #ED4040;
+}
+.swiper-container .swiper-slide{
+    position: relative;
+}
+.swiper-container .swiper-slide span{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    padding: 0 7px;
+    height: 22px;
+    line-height: 22px;
+    z-index: 50;
+    top: 11px;
+    right: 0;
+}
+.swiper-container .swiper-slide:nth-child(1) span{
+    background-color: #0CF;
+}
+.swiper-container .swiper-slide:nth-child(2) span{
+    background-color:#F60;
+}
+/* 文章 */
+.article{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.article li{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #ccc;
+}
+.article li i{
+    display: block;
+    width: 160px;
+    height: 110px;
+    margin-right: 20px;
+}
+.article li img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+}
+.article li:hover img{
+    transform: scale(1.1);/*图片等比缩放*/
+}
+.title{
+    width: calc(100% - 180px);
+}
+.title strong{
+    line-height: 1.5;
+    display: block;
+    /* font-weight: 800; */
+    font-size: 18px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.title p{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.title p:last-of-type{
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.title p a{
+    color: #ED4040;
+}
+.title p span{
+    margin-left: 10px;
+    color: #888;
+}
+.article li:hover a{
+    color: #ED4040;
+}
+/* 右侧 */
+.main-right{
+    width: 340px;
+    margin-left: auto;
+}
+/* 搜索框 */
+.search{
+    width: 336px;
+    height: 36px;
+    line-height: 36px;
+    border: 2px solid #ed4040;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.search form{
+    width: 100%;
+    height: 100%;
+}
+.search input{
+    width: 70%;
+    height: 100%;
+    line-height: 36px;
+    text-indent: 1em;/*首行缩进*/
+}
+.search input::placeholder{
+    font-size: 14px;
+    color: #999;
+}
+.search button{
+    width: 25%;
+    height: 100%;
+    line-height: 36px;
+    background-color: #ed4040;
+    color: white;
+    font-size: 15px;
+}
+.search button i{
+    margin-right: 6px;
+    vertical-align: -3%;
+}
+/* 站长推荐 */
+.tui li{
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px dotted #ccc;
+}
+.tui li:last-of-type{
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.tui li a{
+    display: flex;
+    align-items: center;
+}
+.tui img{
+    width: 80px;
+    height: 60px;
+    margin-right: 10px;
+}
+.tui span{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+/* 热门点击 */
+.hot-click li{
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px dotted #ececec;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.hot-click li:last-of-type{
+    border-bottom: none;
+}
+.hot-click i{
+    color: #666;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.hot-click li:nth-child(-n+3) i{
+    color: #ed4040;
+}
+
+/* 猜你喜欢 */
+.guess img{
+    width: 140px;
+    height: 90px;
+    overflow: hidden;
+}
+.guess li{
+    width: 140px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.guess li:nth-last-child(-n+2){
+    margin-bottom: 0;
+}
+.guess span{
+    display: block;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 友情链接 */
+.friend p a{
+    margin-right: 15px;
+    color: #777;
+    font-size: 14px;
+}
+.friend p{
+    margin-bottom: 10px;
+} 
+/* 版号 */
+.edi p{
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.edi p a{
+    color: #777;
+}
+.edi p img{
+    vertical-align: -34%;
+}
+
+/* 跳转到顶端 */
+.top{
+    position: fixed;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border: #ececec 1px solid;
+    bottom: 10%;
+    right: 5%;
+    text-align: center;
+    color: #4C4C4C;
+    z-index: 20;
+}
+.top i{
+    font-size: 28px;
+}
+.top:hover{
+    color: #4C4C4C;
+}
